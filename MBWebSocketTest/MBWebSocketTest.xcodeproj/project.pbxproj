@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B4C2F8D1826E81B0023DEA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2F8C1826E81B0023DEA3 /* Cocoa.framework */; };
+		7B4C2F971826E81B0023DEA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B4C2F951826E81B0023DEA3 /* InfoPlist.strings */; };
+		7B4C2F991826E81B0023DEA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C2F981826E81B0023DEA3 /* main.m */; };
+		7B4C2F9D1826E81B0023DEA3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7B4C2F9B1826E81B0023DEA3 /* Credits.rtf */; };
+		7B4C2FA01826E81B0023DEA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C2F9F1826E81B0023DEA3 /* AppDelegate.m */; };
+		7B4C2FA31826E81B0023DEA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4C2FA11826E81B0023DEA3 /* MainMenu.xib */; };
+		7B4C2FA51826E81B0023DEA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4C2FA41826E81B0023DEA3 /* Images.xcassets */; };
+		7B4C2FAC1826E81B0023DEA3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2FAB1826E81B0023DEA3 /* XCTest.framework */; };
+		7B4C2FAD1826E81B0023DEA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2F8C1826E81B0023DEA3 /* Cocoa.framework */; };
+		7B4C2FB51826E81B0023DEA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B4C2FB31826E81B0023DEA3 /* InfoPlist.strings */; };
+		7B4C2FB71826E81B0023DEA3 /* MBWebSocketTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C2FB61826E81B0023DEA3 /* MBWebSocketTestTests.m */; };
+		7B4C2FC51826E8380023DEA3 /* MBWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C2FC31826E8380023DEA3 /* MBWebSocketServer.m */; };
+		7B4C2FC71826E8C80023DEA3 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2FC61826E8C80023DEA3 /* libcrypto.dylib */; };
+		7B4C2FC91826E8D00023DEA3 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2FC81826E8D00023DEA3 /* libssl.dylib */; };
+		7B4C2FCB1826E8D90023DEA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2FCA1826E8D90023DEA3 /* Security.framework */; };
+		7B4C2FCD1826E8DE0023DEA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C2FCC1826E8DE0023DEA3 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B4C2FAE1826E81B0023DEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B4C2F811826E81B0023DEA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B4C2F881826E81B0023DEA3;
+			remoteInfo = MBWebSocketTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B4C2F891826E81B0023DEA3 /* MBWebSocketTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBWebSocketTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4C2F8C1826E81B0023DEA3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7B4C2F8F1826E81B0023DEA3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7B4C2F901826E81B0023DEA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7B4C2F911826E81B0023DEA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B4C2F941826E81B0023DEA3 /* MBWebSocketTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBWebSocketTest-Info.plist"; sourceTree = "<group>"; };
+		7B4C2F961826E81B0023DEA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B4C2F981826E81B0023DEA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B4C2F9A1826E81B0023DEA3 /* MBWebSocketTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBWebSocketTest-Prefix.pch"; sourceTree = "<group>"; };
+		7B4C2F9C1826E81B0023DEA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7B4C2F9E1826E81B0023DEA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B4C2F9F1826E81B0023DEA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B4C2FA21826E81B0023DEA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7B4C2FA41826E81B0023DEA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B4C2FAA1826E81B0023DEA3 /* MBWebSocketTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBWebSocketTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4C2FAB1826E81B0023DEA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7B4C2FB21826E81B0023DEA3 /* MBWebSocketTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBWebSocketTestTests-Info.plist"; sourceTree = "<group>"; };
+		7B4C2FB41826E81B0023DEA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B4C2FB61826E81B0023DEA3 /* MBWebSocketTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBWebSocketTestTests.m; sourceTree = "<group>"; };
+		7B4C2FC01826E8380023DEA3 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../../GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7B4C2FC11826E8380023DEA3 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../../GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7B4C2FC21826E8380023DEA3 /* MBWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBWebSocketServer.h; path = ../../MBWebSocketServer.h; sourceTree = "<group>"; };
+		7B4C2FC31826E8380023DEA3 /* MBWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBWebSocketServer.m; path = ../../MBWebSocketServer.m; sourceTree = "<group>"; };
+		7B4C2FC61826E8C80023DEA3 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		7B4C2FC81826E8D00023DEA3 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		7B4C2FCA1826E8D90023DEA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7B4C2FCC1826E8DE0023DEA3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B4C2F861826E81B0023DEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4C2FCD1826E8DE0023DEA3 /* CFNetwork.framework in Frameworks */,
+				7B4C2FCB1826E8D90023DEA3 /* Security.framework in Frameworks */,
+				7B4C2FC91826E8D00023DEA3 /* libssl.dylib in Frameworks */,
+				7B4C2FC71826E8C80023DEA3 /* libcrypto.dylib in Frameworks */,
+				7B4C2F8D1826E81B0023DEA3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4C2FA71826E81B0023DEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4C2FAD1826E81B0023DEA3 /* Cocoa.framework in Frameworks */,
+				7B4C2FAC1826E81B0023DEA3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B4C2F801826E81B0023DEA3 = {
+			isa = PBXGroup;
+			children = (
+				7B4C2F921826E81B0023DEA3 /* MBWebSocketTest */,
+				7B4C2FB01826E81B0023DEA3 /* MBWebSocketTestTests */,
+				7B4C2F8B1826E81B0023DEA3 /* Frameworks */,
+				7B4C2F8A1826E81B0023DEA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B4C2F8A1826E81B0023DEA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2F891826E81B0023DEA3 /* MBWebSocketTest.app */,
+				7B4C2FAA1826E81B0023DEA3 /* MBWebSocketTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B4C2F8B1826E81B0023DEA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2FCC1826E8DE0023DEA3 /* CFNetwork.framework */,
+				7B4C2FCA1826E8D90023DEA3 /* Security.framework */,
+				7B4C2FC81826E8D00023DEA3 /* libssl.dylib */,
+				7B4C2FC61826E8C80023DEA3 /* libcrypto.dylib */,
+				7B4C2F8C1826E81B0023DEA3 /* Cocoa.framework */,
+				7B4C2FAB1826E81B0023DEA3 /* XCTest.framework */,
+				7B4C2F8E1826E81B0023DEA3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B4C2F8E1826E81B0023DEA3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2F8F1826E81B0023DEA3 /* AppKit.framework */,
+				7B4C2F901826E81B0023DEA3 /* CoreData.framework */,
+				7B4C2F911826E81B0023DEA3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7B4C2F921826E81B0023DEA3 /* MBWebSocketTest */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2FC01826E8380023DEA3 /* GCDAsyncSocket.h */,
+				7B4C2FC11826E8380023DEA3 /* GCDAsyncSocket.m */,
+				7B4C2FC21826E8380023DEA3 /* MBWebSocketServer.h */,
+				7B4C2FC31826E8380023DEA3 /* MBWebSocketServer.m */,
+				7B4C2F9E1826E81B0023DEA3 /* AppDelegate.h */,
+				7B4C2F9F1826E81B0023DEA3 /* AppDelegate.m */,
+				7B4C2FA11826E81B0023DEA3 /* MainMenu.xib */,
+				7B4C2FA41826E81B0023DEA3 /* Images.xcassets */,
+				7B4C2F931826E81B0023DEA3 /* Supporting Files */,
+			);
+			path = MBWebSocketTest;
+			sourceTree = "<group>";
+		};
+		7B4C2F931826E81B0023DEA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2F941826E81B0023DEA3 /* MBWebSocketTest-Info.plist */,
+				7B4C2F951826E81B0023DEA3 /* InfoPlist.strings */,
+				7B4C2F981826E81B0023DEA3 /* main.m */,
+				7B4C2F9A1826E81B0023DEA3 /* MBWebSocketTest-Prefix.pch */,
+				7B4C2F9B1826E81B0023DEA3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B4C2FB01826E81B0023DEA3 /* MBWebSocketTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2FB61826E81B0023DEA3 /* MBWebSocketTestTests.m */,
+				7B4C2FB11826E81B0023DEA3 /* Supporting Files */,
+			);
+			path = MBWebSocketTestTests;
+			sourceTree = "<group>";
+		};
+		7B4C2FB11826E81B0023DEA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B4C2FB21826E81B0023DEA3 /* MBWebSocketTestTests-Info.plist */,
+				7B4C2FB31826E81B0023DEA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B4C2F881826E81B0023DEA3 /* MBWebSocketTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4C2FBA1826E81B0023DEA3 /* Build configuration list for PBXNativeTarget "MBWebSocketTest" */;
+			buildPhases = (
+				7B4C2F851826E81B0023DEA3 /* Sources */,
+				7B4C2F861826E81B0023DEA3 /* Frameworks */,
+				7B4C2F871826E81B0023DEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBWebSocketTest;
+			productName = MBWebSocketTest;
+			productReference = 7B4C2F891826E81B0023DEA3 /* MBWebSocketTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B4C2FA91826E81B0023DEA3 /* MBWebSocketTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4C2FBD1826E81B0023DEA3 /* Build configuration list for PBXNativeTarget "MBWebSocketTestTests" */;
+			buildPhases = (
+				7B4C2FA61826E81B0023DEA3 /* Sources */,
+				7B4C2FA71826E81B0023DEA3 /* Frameworks */,
+				7B4C2FA81826E81B0023DEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B4C2FAF1826E81B0023DEA3 /* PBXTargetDependency */,
+			);
+			name = MBWebSocketTestTests;
+			productName = MBWebSocketTestTests;
+			productReference = 7B4C2FAA1826E81B0023DEA3 /* MBWebSocketTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B4C2F811826E81B0023DEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Gray";
+				TargetAttributes = {
+					7B4C2FA91826E81B0023DEA3 = {
+						TestTargetID = 7B4C2F881826E81B0023DEA3;
+					};
+				};
+			};
+			buildConfigurationList = 7B4C2F841826E81B0023DEA3 /* Build configuration list for PBXProject "MBWebSocketTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B4C2F801826E81B0023DEA3;
+			productRefGroup = 7B4C2F8A1826E81B0023DEA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B4C2F881826E81B0023DEA3 /* MBWebSocketTest */,
+				7B4C2FA91826E81B0023DEA3 /* MBWebSocketTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B4C2F871826E81B0023DEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4C2F971826E81B0023DEA3 /* InfoPlist.strings in Resources */,
+				7B4C2FA51826E81B0023DEA3 /* Images.xcassets in Resources */,
+				7B4C2F9D1826E81B0023DEA3 /* Credits.rtf in Resources */,
+				7B4C2FA31826E81B0023DEA3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4C2FA81826E81B0023DEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4C2FB51826E81B0023DEA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B4C2F851826E81B0023DEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4C2FA01826E81B0023DEA3 /* AppDelegate.m in Sources */,
+				7B4C2F991826E81B0023DEA3 /* main.m in Sources */,
+				7B4C2FC51826E8380023DEA3 /* MBWebSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4C2FA61826E81B0023DEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4C2FB71826E81B0023DEA3 /* MBWebSocketTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B4C2FAF1826E81B0023DEA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B4C2F881826E81B0023DEA3 /* MBWebSocketTest */;
+			targetProxy = 7B4C2FAE1826E81B0023DEA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B4C2F951826E81B0023DEA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4C2F961826E81B0023DEA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B4C2F9B1826E81B0023DEA3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4C2F9C1826E81B0023DEA3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7B4C2FA11826E81B0023DEA3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4C2FA21826E81B0023DEA3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7B4C2FB31826E81B0023DEA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4C2FB41826E81B0023DEA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B4C2FB81826E81B0023DEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7B4C2FB91826E81B0023DEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7B4C2FBB1826E81B0023DEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBWebSocketTest/MBWebSocketTest-Prefix.pch";
+				INFOPLIST_FILE = "MBWebSocketTest/MBWebSocketTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+					"-framework",
+					AtoZ,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B4C2FBC1826E81B0023DEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBWebSocketTest/MBWebSocketTest-Prefix.pch";
+				INFOPLIST_FILE = "MBWebSocketTest/MBWebSocketTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lssl",
+					"-framework",
+					AtoZ,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B4C2FBE1826E81B0023DEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBWebSocketTest.app/Contents/MacOS/MBWebSocketTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBWebSocketTest/MBWebSocketTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MBWebSocketTestTests/MBWebSocketTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7B4C2FBF1826E81B0023DEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBWebSocketTest.app/Contents/MacOS/MBWebSocketTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBWebSocketTest/MBWebSocketTest-Prefix.pch";
+				INFOPLIST_FILE = "MBWebSocketTestTests/MBWebSocketTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B4C2F841826E81B0023DEA3 /* Build configuration list for PBXProject "MBWebSocketTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4C2FB81826E81B0023DEA3 /* Debug */,
+				7B4C2FB91826E81B0023DEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4C2FBA1826E81B0023DEA3 /* Build configuration list for PBXNativeTarget "MBWebSocketTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4C2FBB1826E81B0023DEA3 /* Debug */,
+				7B4C2FBC1826E81B0023DEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B4C2FBD1826E81B0023DEA3 /* Build configuration list for PBXNativeTarget "MBWebSocketTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4C2FBE1826E81B0023DEA3 /* Debug */,
+				7B4C2FBF1826E81B0023DEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B4C2F811826E81B0023DEA3 /* Project object */;
+}
